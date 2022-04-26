@@ -1,7 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-// import About from "../views/About.vue";
-// import ContactUs from "../views/ContactUs.vue";
+import AboutView from "../views/AboutView.vue";
+import ContactUs from "../views/ContactView.vue";
+import MenuView from "../views/MenuView.vue";
+import SpecialsView from "../views/SpecialsView.vue";
+import TraysView from "../views/MeatandCheeseView.vue";
+
 // import Report from "../views/ContactDev.vue";
 
 import NotFound from "../views/404View.vue";
@@ -17,22 +21,22 @@ const routes = [
         "Bringing Holmes County to your Neighborhood | Troyer's Dutch Market",
     },
   },
-  // {
-  //   path: "/about",
-  //   name: "About",
-  //   component: About,
-  //   meta: {
-  //     title: "About Us | Troyer's Dutch Market",
-  //   },
-  // },
-  // {
-  //   path: "/contact-us",
-  //   name: "ContactUs",
-  //   component: ContactUs,
-  //   meta: {
-  //     title: "Contact Us | Troyer's Dutch Market",
-  //   },
-  // },
+  {
+    path: "/about",
+    name: "About",
+    component: AboutView,
+    meta: {
+      title: "About Us | Troyer's Dutch Market",
+    },
+  },
+  {
+    path: "/contact-us",
+    name: "ContactUs",
+    component: ContactUs,
+    meta: {
+      title: "Contact Us | Troyer's Dutch Market",
+    },
+  },
   // {
   //   path: "/report",
   //   name: "Report",
@@ -41,22 +45,22 @@ const routes = [
   //     title: "Report a Problem | Troyer's Dutch Market",
   //   },
   // },
-  // {
-  //   path: "/menu",
-  //   name: "Menu",
-  //   component: Menu,
-  //   meta: {
-  //     title: "Menu | Troyer's Dutch Market",
-  //   },
-  // },
-  // {
-  //   path: "/specials",
-  //   name: "Specials",
-  //   component: Specials,
-  //   meta: {
-  //     title: "Specials | Troyer's Dutch Market",
-  //   },
-  // },
+  {
+    path: "/menu",
+    name: "Menu",
+    component: MenuView,
+    meta: {
+      title: "Menu | Troyer's Dutch Market",
+    },
+  },
+  {
+    path: "/specials",
+    name: "Specials",
+    component: SpecialsView,
+    meta: {
+      title: "Specials | Troyer's Dutch Market",
+    },
+  },
   // {
   //   path: "/bakedgoods",
   //   name: "BakedGoods",
@@ -89,14 +93,14 @@ const routes = [
   //     title: "Bulk Food | Troyer's Dutch Market",
   //   },
   // },
-  // {
-  //   path: "/meat-and-cheese-trays",
-  //   name: "partyTrays",
-  //   component: partyTrays,
-  //   meta: {
-  //     title: "Meat and Cheese Party Trays | Troyer's Dutch Market",
-  //   },
-  // },
+  {
+    path: "/meat-and-cheese-trays",
+    name: "partyTrays",
+    component: TraysView,
+    meta: {
+      title: "Meat and Cheese Party Trays | Troyer's Dutch Market",
+    },
+  },
   {
     path: "/:pathMatch(.*)*",
     name: "not-found",

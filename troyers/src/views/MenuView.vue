@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
+  <div class="menu">
     <div class="container">
-      <h1>about</h1>
+      <h1>menu</h1>
     </div>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 
 export default {
-  name: "AboutView",
+  name: "MenuView",
   components: {
   },
 };

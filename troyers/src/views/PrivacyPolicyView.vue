@@ -1,5 +1,5 @@
 <template>
-  <div id="main">
+  <div class="container">
     <h1>Privacy Policy</h1>
 
     <section style="margin-top: 60px">
@@ -179,7 +179,7 @@
         service.
       </p>
     </section>
-    <section style="text-align: center; margin-top: 100px">
+    <section style="text-align: center; margin-top: 100px; padding-bottom: 30px;">
       <h2 style="margin-bottom: 20px">Questions, Comments, Concerns</h2>
       <p>
         For any other questions, comments, or concerns regarding the integrity
@@ -197,10 +197,9 @@
 
 <style scoped>
 h1 {
-  font-size: 50px;
-  border-bottom: 1px solid #800000;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
+  border-bottom: 1px solid #9e0000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 h2,
 h3 {
@@ -217,7 +216,7 @@ li {
   padding: 7px 0 0 20px;
 }
 a {
-  color: #800000;
+  color: #9e0000;
   opacity: 0.8;
   text-decoration: none;
 }

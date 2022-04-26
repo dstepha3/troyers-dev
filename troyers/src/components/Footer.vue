@@ -5,17 +5,14 @@
       <div class="col" >
         <h4>Navigation</h4>
         <nav class="nav flex-column justify-content-center">
-          <router-link class="nav-link" aria-current="page" to="/">Home</router-link>
-          <router-link class="nav-link" to="/menu">Menu</router-link>
-          <router-link class="nav-link" to="/specials">Specials</router-link>
-          <!-- <router-link class="nav-link" to="/shop">Shop</router-link> -->
-          <router-link class="nav-link" to="/about">About</router-link>
-          <router-link class="nav-link" to="/contact-us">Contact Us</router-link>
-          <router-link class="nav-link" to="/report">Help</router-link>
+          <router-link class="nav-link" to="menu">Menu</router-link>
+          <router-link class="nav-link" to="specials">Specials</router-link>
+          <router-link class="nav-link" to="about">About</router-link>
+          <router-link class="nav-link" to="contact-us">Contact Us</router-link>
         </nav>
       </div>
       <div class="col">
-        <img width="250" src="@/assets/logo-transparent2.png" />
+        <router-link to="/"><img width="250" src="@/assets/logo-transparent2.png" /></router-link>
         <div class="address">
           <h2>Troyer's Dutch Market</h2>
           <p>3435 Lincoln Way E. Massillon, Ohio 44646</p>
@@ -74,7 +71,7 @@
       <p>Hosted on <a id="cloudflarelink" href="http://www.cloudflare.com/">Cloudflare</a></p>
     </div>
     <div class="copyright mobile">
-      <router-link class="copyright-link" to="/privacypolicy"
+      <router-link class="copyright-link" to="privacypolicy"
         >Privacy Policy</router-link
       >
       <p>&copy; 2022 Troyer's Dutch Market</p>
@@ -184,12 +181,13 @@ div.col:nth-child(2) {
   transition-duration: 0.3s;
   transition: all 0.3s;
 }
-.nav-link.active {
-  font-weight: 900;
-  opacity: 1;
-}
 .nav-link:hover {
   opacity: 1;
+}
+.router-link-exact-active{
+    opacity: 1;
+    font-weight: 900;
+    cursor: default;
 }
 .col table {
   margin: 0 auto;
@@ -213,13 +211,13 @@ div.col:nth-child(2) {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   margin-bottom: 0;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .phone {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   margin-top: 5px;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .col img {
   margin-top: 15px;
@@ -252,6 +250,11 @@ table td {
   font-weight: 200;
   text-decoration: none;
 }
+.copyright-link.router-link-exact-active {
+    font-weight: 800;
+    text-decoration: none !important;
+    cursor: default;
+}
 .copyright-link:hover {
   text-decoration: underline;
 }
@@ -262,7 +265,7 @@ table td {
 #thursday,
 #friday,
 #saturday {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 #sunday.active,
 #monday.active,
