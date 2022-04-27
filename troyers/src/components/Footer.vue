@@ -67,19 +67,18 @@
       <router-link class="copyright-link" to="/privacypolicy"
         >Privacy Policy</router-link
       >
-      <p>Designed by <a id="danielonlinelink" href="http://danielonline.pages.dev/">DanielOnline</a></p>
+      <p>Created by <a id="danielonlinelink" href="http://danielonline.pages.dev/">DanielOnline</a></p>
       <p>Hosted on <a id="cloudflarelink" href="http://www.cloudflare.com/">Cloudflare</a></p>
+      <p>Icons by <a id="icons8credit" target="_blank" href="https://icons8.com">Icons8</a></p>
     </div>
-    <div class="copyright mobile">
-      <router-link class="copyright-link" to="privacypolicy"
-        >Privacy Policy</router-link
-      >
-      <p>&copy; 2022 Troyer's Dutch Market</p>
-      
+    <div class="copyright mobile"> 
       <div class="flex-row">
-        <p>Designed by<br/> <a id="danielonlinelink" href="http://danielonline.pages.dev/">DanielOnline</a></p>
+        <p style="font-size: 10px;">Created by<br/> <a style="font-size: 16px;" id="danielonlinelink" href="http://danielonline.pages.dev/">DanielOnline</a></p>
+        <p>Icons by<br/><a  id="icons8credit" target="_blank" href="https://icons8.com">Icons8</a></p> 
         <p>Hosted on<br/> <a id="cloudflarelink" href="http://www.cloudflare.com/">Cloudflare</a></p>
       </div>
+      <router-link class="copyright-link" to="privacypolicy">Privacy Policy</router-link>
+      <p>&copy; 2022 Troyer's Dutch Market</p>
     </div>
   </footer>
 </template>
@@ -304,22 +303,19 @@ table td {
   border: none;
   opacity: 1;
 }
-#danielonlinelink{
+#danielonlinelink,
+#cloudflarelink,
+#icons8credit {
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
 }
-#danielonlinelink:hover{
+#danielonlinelink:hover,
+#cloudflarelink:hover,
+#icons8credit:hover{
   text-decoration: underline;
 }
-#cloudflarelink{
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-}
-#cloudflarelink:hover{
-  text-decoration: underline;
-}
+
 .copyright.desktop {
     display: flex;
   }

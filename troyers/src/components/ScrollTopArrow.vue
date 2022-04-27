@@ -19,7 +19,7 @@ export default {
 
 <style>
 .btn {
-  border-radius: 50%;
+  border-radius: 200px !important;
   background-color: rgba(128, 0, 0, 0.9);
   border: 2px solid rgba(128, 0, 0, 0.9);
   line-height: 1;
@@ -39,11 +39,16 @@ export default {
   padding: 10px 5px;
 }
 .fas:hover {
-  color: rgba(165, 78, 78, 0.9);
+  color: white;
 }
 .btn:hover {
   border: 2px solid rgba(128, 0, 0, 0.9);
-  color: rgba(128, 0, 0, 0.9);
+  color: white;
+  background: rgba(180, 1, 1, 0.9);
+}
+
+.btn:hover .fas {
+  color: white;
 }
 @media screen and (max-width: 768px){
   .fas{

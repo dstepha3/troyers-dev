@@ -23,29 +23,56 @@ h3{
 h4{
     font-size: 16px;
 }
+#main-content a {
+    color: #9e0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+#main-content a:hover {
+    color: #9e0000;
+    text-decoration: underline;
+    font-weight: 600;
+}
 .vintage-heading{
     font-family: 'Amatic SC', cursive;
 }
+h2.vintage-heading{
+    font-size: 36px;
+}
+b, strong{
+    font-weight: 900;
+}
+hr{
+    margin: 40px 0;
+}
+hr.red{
+    background: #9e0000;
+}
+.center{
+    text-align: center;
+}
 
-
-.btn {
+#main-content .btn {
     box-shadow: none;
     text-transform: uppercase;
     transition: all 0.3s;
-    border-radius: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
-.btn.red {
+#main-content .btn.red {
     background: rgba(128, 0, 0, 0.9);
     border: 2px solid rgba(128, 0, 0, 0.9);
     color: #ffffff;
 }
-.btn.white {
+#main-content .btn.white {
     background: #ffffff;
     border: 2px solid rgba(128, 0, 0, 0.9);
     color: rgba(128, 0, 0, 0.9);
 }
-.btn:hover {
+#main-content .btn:hover {
     transform: scale(1.05);
+    text-decoration: none;
 }
 
 

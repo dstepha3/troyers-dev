@@ -33,6 +33,7 @@ export default {
 <style scoped>
 .error404 {
   text-align: center;
+  padding-bottom: 20px;
 }
 h1 {
   font-family: "Abril Fatface", cursive;
