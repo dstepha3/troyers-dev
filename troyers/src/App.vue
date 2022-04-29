@@ -5,7 +5,16 @@
 
     <div id="main-content">
       <!-- eslint-disable-next-line -->
-      <router-view />
+      <router-view class="fade-in" v-if="loaded" />
+
+      <div id="loading-container" class="fade-in" v-if="!loaded">
+        <div id="render-spiner-container">
+            <div class="spinner-border" id="render-spinner" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p id="loadingtext">Loading..</p>
+        </div>
+      </div>
     </div>
 
     <BaseFooter />
@@ -21,7 +30,15 @@ export default {
   data() {
     return {
       show: false,
+      loaded: false,
     };
+  },
+  watch: {
+    '$route' (to, from){
+      console.log(to, from);
+      this.loaded = false;
+      setTimeout(() => {  this.load_window() }, this.getRandomArbitrary(1000, 2000));
+    }
   },
   components: {
     BaseFooter,
@@ -29,6 +46,15 @@ export default {
   },
   mounted() {
     this.show = true;
+    setTimeout(() => {  this.load_window() }, this.getRandomArbitrary(1000, 2000));
+  },
+  methods:{
+    load_window(){
+      this.loaded = true;
+    },
+    getRandomArbitrary(min, max) {
+      return Math.random() * (max - min) + min;
+    },
   },
 };
 </script>
@@ -39,7 +65,9 @@ export default {
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;
+	animation-duration: 0.3s;
+  overflow: hidden;
+
 }
 #main-content{
   padding-top: 50px;
@@ -51,5 +79,14 @@ export default {
 	100% {
 		opacity: 1;
 	}
+}
+#render-spiner-container{
+  background-color: white !important;
+  height: 100%;
+  margin-top: 100px;
+}
+#loadingtext{
+  margin-top: 10px;
+  display: block;
 }
 </style>
