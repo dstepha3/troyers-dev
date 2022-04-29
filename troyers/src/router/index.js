@@ -94,7 +94,7 @@ const routes = [
   //   },
   // },
   {
-    path: "/meat-and-cheese-trays",
+    path: "/trays",
     name: "partyTrays",
     component: TraysView,
     meta: {
