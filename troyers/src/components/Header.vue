@@ -103,6 +103,15 @@ export default {
   #header img{
       display: block;
   }  
+  #header img{
+    bottom: -19px;
+    left: -202px;
+    width: 230px;
+  }
+  button.navbar-toggler{
+    transform: translateX(80px);
+    border: none;
+  }
 
 }
 
