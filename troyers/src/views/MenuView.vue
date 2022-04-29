@@ -13,23 +13,23 @@
 
         <div class="jump-row">
           <a class="toc" @click="scrollToElement($refs.Sandwiches)">
-            <img height="110" width="110" src="@/assets/images/icons/icons8-sandwich-100.png">
+            <img height="110" width="110" src="@/assets/images/icons/icons8-sandwich-100.png" alt="sandwich icon">
             <span class="toc-title vintage-heading">Sandwiches</span>
           </a>
           <a class="toc" @click="scrollToElement($refs.Wraps)">
-            <img height="110" width="110" src="@/assets/images/icons/icons8-wrap-100.png">
+            <img height="110" width="110" src="@/assets/images/icons/icons8-wrap-100.png" alt="wrap icon">
             <span class="toc-title vintage-heading">Wraps</span>
           </a>
           <a class="toc" @click="scrollToElement($refs.Salads)">
-            <img height="110" width="110" src="@/assets/images/icons/icons8-salad-100.png">
+            <img height="110" width="110" src="@/assets/images/icons/icons8-salad-100.png" alt="salad icon">
             <span class="toc-title vintage-heading">Salads</span>
           </a>
           <router-link class="toc" to="trays">
-            <img height="110" width="110" src="@/assets/images/icons/icons8-meal-100.png">
+            <img height="110" width="110" src="@/assets/images/icons/icons8-meal-100.png" alt="plate icon">
             <span class="toc-title vintage-heading">Meat &amp; Cheese Trays</span>
           </router-link>
           <router-link class="toc" to="pies">
-            <img height="110" width="110" src="@/assets/images/icons/icons8-pie-100.png">
+            <img height="110" width="110" src="@/assets/images/icons/icons8-pie-100.png" alt="pie icon">
             <span class="toc-title vintage-heading">Pies</span>
           </router-link>
         </div>
@@ -163,7 +163,6 @@
       </div>
 
     </div>
-
       <ScrollTopArrow id="ScrollArrow" />
       <OrderNowButton id="OrderNowButton" />
   </div>
