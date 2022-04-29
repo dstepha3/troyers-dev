@@ -20,7 +20,7 @@
                 <router-link class="nav-link" to="specials">Specials</router-link>            
             </li>
             <li class="nav-item">
-                <router-link class="nav-link" to="meat-and-cheese-trays">Meat &amp; Cheese Party Trays</router-link>            
+                <router-link class="nav-link" to="trays">Meat &amp; Cheese Party Trays</router-link>            
             </li>
         </ul>
         <!-- <span class="navbar-text">
