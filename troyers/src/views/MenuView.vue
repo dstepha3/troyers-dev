@@ -324,7 +324,7 @@ bottom: 90px;
   top: -14px;
   background: #ffffff;
   padding-right: 20px;
-  font-size: 18px;
+  font-size: 1rem;
 }
 .card-body > p:last-child{
   margin-bottom: 0;
