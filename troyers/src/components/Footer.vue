@@ -88,7 +88,6 @@ export default {
   name: "BaseFooter",
   mounted() {
     var d = new Date();
-    console.log(d.getDay());
     switch (d.getDay()) {
       case 0:
         var sunday = document.getElementById("sunday");
