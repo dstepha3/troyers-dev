@@ -28,7 +28,7 @@
             <img height="110" width="110" src="@/assets/images/icons/icons8-meal-100.png" alt="plate icon">
             <span class="toc-title vintage-heading">Meat &amp; Cheese Trays</span>
           </router-link>
-          <router-link class="toc" to="pies">
+          <router-link class="toc" to="/baked-goods/pies">
             <img height="110" width="110" src="@/assets/images/icons/icons8-pie-100.png" alt="pie icon">
             <span class="toc-title vintage-heading">Pies</span>
           </router-link>
@@ -37,7 +37,7 @@
 
       <!-- <hr class="red"/> -->
     </div>
-      <img src="https://images.squarespace-cdn.com/content/v1/5d1cffbae446ee00015b3435/1565187311376-P7UDXRXRD0631XULH4ZC/red+rip-37.jpg?format=2500w" height="250" style="width: 100%; opacity: 0.7; margin-top: 60px;">
+      <img src="@/assets/images/red-rip.jpg" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px;">
     <div class="container">
 
       <a class="jump-target" ref="Sandwiches"></a>
@@ -82,7 +82,7 @@
       </div>
     </div>
 
-      <img src="https://images.squarespace-cdn.com/content/v1/5d1cffbae446ee00015b3435/1565187311376-P7UDXRXRD0631XULH4ZC/red+rip-37.jpg?format=2500w" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px; transform: rotate(180deg);">
+      <img src="@/assets/images/red-rip.jpg" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px;">
 
     <div class="container">
       <a class="jump-target" ref="Wraps"></a>
@@ -126,7 +126,7 @@
       </div>
     </div>
 
-      <img src="https://images.squarespace-cdn.com/content/v1/5d1cffbae446ee00015b3435/1565187311376-P7UDXRXRD0631XULH4ZC/red+rip-37.jpg?format=2500w" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px;">
+      <img src="@/assets/images/red-rip.jpg" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px;">
 
     <div class="container" id="salads">
       <a class="jump-target" ref="Salads"></a>
@@ -207,6 +207,7 @@ bottom: 90px;
 }
 .jump-section span{
   display: block;
+  text-align: center;
 }
 .jump-title{
   color: #cfcccc;

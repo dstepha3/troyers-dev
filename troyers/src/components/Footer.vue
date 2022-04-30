@@ -5,10 +5,10 @@
       <div class="col" >
         <h4>Navigation</h4>
         <nav class="nav flex-column justify-content-center">
-          <router-link class="nav-link" to="menu">Menu</router-link>
-          <router-link class="nav-link" to="specials">Specials</router-link>
-          <router-link class="nav-link" to="about">About</router-link>
-          <router-link class="nav-link" to="contact-us">Contact Us</router-link>
+          <router-link class="nav-link" to="/menu">Menu</router-link>
+          <router-link class="nav-link" to="/specials">Specials</router-link>
+          <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/contact-us">Contact Us</router-link>
         </nav>
       </div>
       <div class="col">
@@ -77,7 +77,7 @@
         <p>Icons by<br/><a  id="icons8credit" target="_blank" href="https://icons8.com">Icons8</a></p> 
         <p>Hosted on<br/> <a id="cloudflarelink" href="http://www.cloudflare.com/" target="_blank">Cloudflare</a></p>
       </div>
-      <router-link class="copyright-link" to="privacypolicy">Privacy Policy</router-link>
+      <router-link class="copyright-link" to="/privacypolicy">Privacy Policy</router-link>
       <p>&copy; 2022 Troyer's Dutch Market</p>
     </div>
   </footer>

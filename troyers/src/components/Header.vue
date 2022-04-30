@@ -14,13 +14,13 @@
                 <router-link class="nav-link" aria-current="page" to="/">Home</router-link>            
             </li> -->
             <li class="nav-item">
-                <router-link class="nav-link" to="menu">Deli Menu</router-link>            
+                <router-link class="nav-link" to="/menu">Deli Menu</router-link>            
             </li>
             <li class="nav-item">
-                <router-link class="nav-link" to="specials">Specials</router-link>            
+                <router-link class="nav-link" to="/specials">Specials</router-link>            
             </li>
             <li class="nav-item">
-                <router-link class="nav-link" to="trays">Meat &amp; Cheese Party Trays</router-link>            
+                <router-link class="nav-link" to="/trays">Meat &amp; Cheese Party Trays</router-link>            
             </li>
         </ul>
         <!-- <span class="navbar-text">
