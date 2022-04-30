@@ -6,6 +6,8 @@ import store from "./store";
 import "./assets/css/global.css";
 import "./assets/css/global-mobile.css";
 
+import "./assets/css/menu.css";
+
 import "./assets/css/tool-tip.css";
 
 createApp(App).use(store).use(router).mount("#app");
