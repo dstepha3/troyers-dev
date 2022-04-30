@@ -171,8 +171,8 @@
 <script>
 
   import { mapState } from 'vuex'
-  import ScrollTopArrow from "@/components/ScrollTopArrow.vue";
-  import OrderNowButton from "@/components/OrderNowButton.vue";
+  import ScrollTopArrow from "@/components/Widgets/ScrollTopArrowWidget.vue";
+  import OrderNowButton from "@/components/Widgets/OrderNowWidget.vue";
 
 
 export default {

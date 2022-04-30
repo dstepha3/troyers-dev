@@ -23,8 +23,8 @@
 
 <script>
 // @ is an alias to /src
-import BaseHeader from "@/components/Header.vue";
-import BaseFooter from "@/components/Footer.vue";
+import BaseHeader from "@/components/Common/Header.vue";
+import BaseFooter from "@/components/Common/Footer.vue";
 export default {
   name: "Home-Component",
   data() {

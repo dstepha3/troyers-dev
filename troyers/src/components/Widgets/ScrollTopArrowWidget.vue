@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ScrollTopComponent from "./ScrollTopComponent";
+import ScrollTopComponent from "@/components/ScrollTopComponent";
 export default {
   components: {
     ScrollTopComponent,

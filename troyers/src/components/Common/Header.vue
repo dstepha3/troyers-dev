@@ -42,7 +42,7 @@ export default {
 <style scoped>
 #header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/images/country-header-bg.jpg");
+    url("@/assets/images/country-header-bg.jpg");
   /* background: #ffffff; */
   min-height: 140px;
   background-size: cover;

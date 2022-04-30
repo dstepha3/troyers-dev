@@ -4,15 +4,15 @@ import AboutView from "../views/AboutView.vue";
 import ContactUs from "../views/ContactView.vue";
 import MenuView from "../views/MenuView.vue";
 import SpecialsView from "../views/SpecialsView.vue";
-import TraysView from "../views/MeatandCheeseView.vue";
-import PiesView from "../views/PiesView.vue";
-import SixPiesView from "../views/SixPiesView.vue";
-import NinePiesView from "../views/NinePiesView.vue";
+import TraysView from "../views/Food/MeatandCheeseView.vue";
+import PiesView from "../views/Food/Baked/PiesView.vue";
+import SixPiesView from "../views/Food/Baked/Pies/SixPiesView.vue";
+import NinePiesView from "../views/Food/Baked/Pies/NinePiesView.vue";
 
 // import Report from "../views/ContactDev.vue";
 
-import NotFound from "../views/404View.vue";
-import PrivacyPolicy from "../views/PrivacyPolicyView.vue";
+import NotFound from "../views/Maintenance/404View.vue";
+import PrivacyPolicy from "../views/Maintenance/PrivacyPolicyView.vue";
 
 const routes = [
   {
