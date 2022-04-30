@@ -11,7 +11,6 @@
 
       <div class="jump-section">
         <span class="jump-title center">Jump to Section</span>
-
         <div class="jump-row">
           <a class="toc" @click="scrollToElement($refs.Sandwiches)">
             <img height="110" width="110" src="@/assets/images/icons/icons8-sandwich-100.png" alt="sandwich icon">
@@ -35,7 +34,6 @@
           </router-link>
         </div>
       </div>
-
     </div>
 
     <img src="@/assets/images/red-rip.jpg" height="250" style="width: 100%; opacity: 0.7; margin-top: 40px;">
