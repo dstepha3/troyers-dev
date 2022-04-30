@@ -5,6 +5,9 @@ import ContactUs from "../views/ContactView.vue";
 import MenuView from "../views/MenuView.vue";
 import SpecialsView from "../views/SpecialsView.vue";
 import TraysView from "../views/MeatandCheeseView.vue";
+import PiesView from "../views/PiesView.vue";
+import SixPiesView from "../views/SixPiesView.vue";
+import NinePiesView from "../views/NinePiesView.vue";
 
 // import Report from "../views/ContactDev.vue";
 
@@ -69,22 +72,30 @@ const routes = [
   //     title: "Baked Goods | Troyer's Dutch Market",
   //   },
   // },
-  // {
-  //   path: "/bakedgoods/six-inch-pies",
-  //   name: "sixPies",
-  //   component: sixPies,
-  //   meta: {
-  //     title: "Six Inch Pies | Troyer's Dutch Market",
-  //   },
-  // },
-  // {
-  //   path: "/bakedgoods/nine-inch-pies",
-  //   name: "ninePies",
-  //   component: ninePies,
-  //   meta: {
-  //     title: "Nine Inch Pies | Troyer's Dutch Market",
-  //   },
-  // },
+  {
+    path: "/baked-goods/pies",
+    name: "Pies",
+    component: PiesView,
+    meta: {
+      title: "Pies | Troyer's Dutch Market",
+    },
+  },
+  {
+    path: "/baked-goods/pies/six-inch-pies",
+    name: "sixPies",
+    component: SixPiesView,
+    meta: {
+      title: "Six Inch Pies | Troyer's Dutch Market",
+    },
+  },
+  {
+    path: "/baked-goods/pies/nine-inch-pies",
+    name: "ninePies",
+    component: NinePiesView,
+    meta: {
+      title: "Nine Inch Pies | Troyer's Dutch Market",
+    },
+  },
   // {
   //   path: "/bulkfood",
   //   name: "bulkFood",
